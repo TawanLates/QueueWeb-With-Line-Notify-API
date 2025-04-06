@@ -1,0 +1,163 @@
+/* ตั้งค่าเบื้องต้นสำหรับหน้าเว็บ */
+body {
+  background-color: #f7f7f7; /* พื้นหลังสีอ่อน */
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.delete-btn {
+      color: white;
+      background-color: red;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      font-size: 14px;
+      border-radius: 5px;
+      width: 50px;
+    }
+
+.delete-btn:hover {
+      background-color: darkred;
+    }
+/* กำหนดขนาดและการจัดวางของ container */
+.container {
+  width: 40%;
+  margin: 20px auto;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: #fff; /* พื้นหลังสีขาว */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* หัวข้อ */
+h2, h3 {
+  color: #2d6a4f; /* สีเขียวเข้ม */
+  text-align: center;
+}
+
+/* ฟอร์ม */
+form {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #2d6a4f;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="file"] {
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  background-color: #2d6a4f;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 50%;
+}
+
+form input[type="submit"]:hover {
+  background-color: #1b4332;
+}
+
+/* ลิงค์กลับไปหน้า Dashboard */
+.back-link {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.back-link:hover {
+    text-decoration: none;
+  
+}
+
+/* รายการสินค้า */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-item {
+  width: 90%;
+  background-color: #e8f5e9; /* พื้นหลังสีเขียวอ่อน */
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* ลิงค์สำหรับแก้ไข */
+.edit-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2d6a4f;
+  text-decoration: none;
+}
+
+.edit-link:hover {
+  text-decoration: underline;
+}
+
+/* ฟอร์มแก้ไขสินค้า */
+.edit-form {
+  background-color: #e8f5e9;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* ข้อความแจ้งเตือน */
+.message {
+  padding: 10px;
+  background-color: #dff0d8;
+  color: #3c763d;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* Media Queries สำหรับ Responsive Design */
+
+/* เมื่อหน้าจอมีความกว้างไม่เกิน 768px */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .product-item {
+    width: 100%;
+  }
+}
+
+/* เมื่อหน้าจอมีความกว้างไม่เกิน 480px */
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.photomid{
+    text-align: center;
+}
+
+ 

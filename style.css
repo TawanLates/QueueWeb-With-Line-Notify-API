@@ -1,0 +1,36 @@
+.queue-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.queue-info h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+.queue-info p {
+    font-size: 18px;
+    color: #555;
+}
+
+.queue-links {
+    display: flex;
+    justify-content: center; 
+    margin-top: 15px;
+}
+
+.queue-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.queue-button:hover {
+    background-color: #e04e2b;
+}

@@ -1,0 +1,99 @@
+/* ตั้งค่าพื้นฐานของหน้าเว็บ */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 20px;
+}
+
+/* กล่องเนื้อหาหลัก */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
+/* หัวข้อ */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* ฟอร์มป้อนเบอร์โทร */
+form {
+    margin-bottom: 20px;
+}
+
+/* ช่องกรอกเบอร์โทร */
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* ปุ่มกด */
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* ปุ่มยกเลิกคิว */
+button.cancel {
+    background-color: #dc3545;
+}
+
+/* ปุ่ม hover */
+button:hover {
+    opacity: 0.8;
+}
+
+/* รายการคิว */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* สถานะคิว */
+.queue-status {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* ข้อความจำนวนคิวที่ต้องรอ */
+.waiting-count {
+    font-size: 18px;
+    color: #ff5733;
+}
+
+/* ลิงก์กลับไปหน้า Login */
+a {
+    display: block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

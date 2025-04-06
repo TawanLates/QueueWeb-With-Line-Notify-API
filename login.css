@@ -1,0 +1,64 @@
+    body {
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+
+        /* สไตล์สำหรับ h1 */
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* สไตล์ฟอร์ม */
+        form {
+
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* สไตล์สำหรับ label และ input */
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 20px; /* เพิ่มระยะห่างระหว่าง input และปุ่ม */
+            border: 1px solid #444;
+            border-radius: 4px;
+            color: #333;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #444;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center; /* จัดรูปภาพให้อยู่กลางแนวนอน */
+            align-items: center;     /* จัดรูปภาพให้อยู่กลางแนวตั้ง */
+ 
+        }
+
+        img {
+            max-width: 180px;  /* ขยายรูปภาพให้เต็มความกว้างของ container */
+            max-height: 180px; /* ขยายรูปภาพให้เต็มความสูงของ container */
+        }
